@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20 px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 60px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background: rgb(1, 1, 36);
+    color: white;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    color: #555;
+    position: relative;
+    line-height: 60px;
+}
+.col-4:hover{
+    transform: translate(-5px);
+}
+.Stadium{
+    background: rgb(1, 1, 36);
+    margin-top: 80px;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+.col-2 .Stadium-img{
+    padding: 50px;
+}
+.col-3{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-3 img{
+    width: 100%;
+}
+.col-3:hover{
+    transform: translate(5px);
+}
+.contact-section{
+    background: url(bg.png) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+  }
+  .contact-section h1{
+    text-align: center;
+    color: #ddd;
+  }
+  .border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+  }
+  
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+  }
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .contact-form-btn:hover{
+    background: #2980b9;
+  }
+  
+
+.footer{
+    background: black;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding:60px 0 20px;
+}
+.footer h3{
+ color: white;
+ margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2{
+ min-width: 250px; 
+ margin-bottom: 20px;
+}
